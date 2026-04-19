@@ -48,4 +48,5 @@ public class PostController {
         postService.delete(id);
         return ResponseEntity.status(HttpStatus.OK).body("Post deleted successfully");
     }
+
 }
